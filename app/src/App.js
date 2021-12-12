@@ -1,14 +1,14 @@
 import { Routes, BrowserRouter as Router, Route } from 'react-router-dom'
 
+import './assets/styles/global.css'
+
 import Homepage from './Pages/Homepage/Homepage'
 import Register from './Pages/Register/Register'
 import Login from './Pages/Login/Login'
 import Journey from './Pages/Journey/Journey'
-
-
-import './assets/styles/global.css'
 import Hamburguer from './Pages/Hamburguer/Hamburguer'
 import Friends from './Pages/Friends/Friends'
+import AddFriend from './Pages/AddFriend/AddFriend'
 
 function App() {
 	return (
@@ -20,6 +20,7 @@ function App() {
 				<Route path="/journey" element={ <Journey /> } />
 				<Route path="/hamburguer" element={ <Hamburguer /> } />
 				<Route path="/friends" element={ <Friends /> } />
+				<Route path="/add-friend" element={ <AddFriend /> } />
 			</Routes>
 		</Router>
 	);

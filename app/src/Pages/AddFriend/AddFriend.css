@@ -1,0 +1,25 @@
+.add-friend-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-color: var(--blue-darker);
+}
+
+.add-friend-input input{
+    border: 3px solid var(--aqua-main);
+    border-radius: .8rem;
+    padding: 1rem;
+    color: var(--aqua-very-light);
+    width: 70vw;
+}
+
+.add-friend-input ::placeholder {
+    color: var(--aqua-very-light);
+}
+
+.add-friend-btn {
+    margin-top: 2rem;
+}

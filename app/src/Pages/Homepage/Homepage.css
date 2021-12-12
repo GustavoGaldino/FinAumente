@@ -1,0 +1,57 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: calc(100vw - 0px);
+    height: 100vh;
+    background-color: var(--aqua-main);
+    font-family: Montserrat;
+}
+
+.homepage-title {
+    font-weight: bold;
+    color: var(--aqua-text);
+    font-size: 1.5rem;
+}
+
+.homepage-title span {
+    padding: .2rem .4rem;
+    border-radius: 1rem;
+    background: var(--blue-darker);
+    color: var(--yellow-font);
+}
+
+.homepage-texts 
+
+.homepage-texts h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.homepage-texts :last-child {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.homepage-buttons button{
+    padding: 1.5rem 2.5rem;
+    font-weight: bold;
+    font-family: Montserrat;
+    border-radius: 1rem;
+}
+
+.homepage-buttons :first-child{
+    background-color: var(--aqua-light);
+    z-index: 999;
+    position: relative;
+    margin-left: 1.25rem;
+}
+
+.homepage-buttons :last-child{
+    background-color: var(--blue-darker);
+    position: relative;
+    right: 1.25rem;
+    z-index: 1;
+    color: var(--white-text)
+}

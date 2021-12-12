@@ -1,6 +1,11 @@
 :root {
-    --aqua-main: #03bdca;
+    --aqua-main: #41CBC9;
     --dark-contrast: #0F1116;
+    --yellow-font: #FFC745;
+    --blue-darker: #007A78;
+    --aqua-light: #9AFFFD;
+    --white-text: #F8F8F8;
+    --aqua-text: #004746;
 }
 
 h1 {

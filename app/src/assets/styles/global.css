@@ -1,5 +1,19 @@
+:root {
+    --aqua-main: #03bdca;
+    --dark-contrast: #0F1116;
+}
+
+h1 {
+    font-size: 1.25rem;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
 }

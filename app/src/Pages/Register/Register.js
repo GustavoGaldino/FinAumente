@@ -33,9 +33,11 @@ const Register = () => {
                 <Input fieldName="Senha" hideable={true} />
                 <Input fieldName="Confirmar senha" hideable={true} />
             </div>
-            <button className="register-button">
-                Cadastrar
-            </button>
+            <Link to="/journey">
+                <button className="register-button">
+                    Cadastrar
+                </button>
+            </Link>
         </div>
     );
 }

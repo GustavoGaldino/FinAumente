@@ -36,9 +36,11 @@ const Login = () => {
                     Não possui uma conta ainda?
                     <Link to="/register" className="register-link"> Cadastrar </Link>
                 </span>
-                <button className="register-button">
-                    Entrar
-                </button>
+                <Link to="/journey">
+                    <button className="register-button">
+                        Entrar
+                    </button>
+                </Link>
             </div>
         </div>
     );

@@ -1,14 +1,14 @@
-import './Register.css'
+import './Login.css'
 
 import { Link } from 'react-router-dom';
 
 import { RiArrowGoBackFill } from 'react-icons/ri'
 
-import Input from './Input';
+import Input from '../Register/Input';
 
-const Register = () => {
+const Login = () => {
     return (
-        <div className="register-container">
+        <div className="login-container">
             <div style={{
                 width: "100vw"
             }}>
@@ -25,19 +25,23 @@ const Register = () => {
             </div>
             <div className="register-texts">
                 <h1>Vamos entrar</h1>
-                <span>Se cadastre conosco</span>
+                <span>Bem-vindo de volta!</span>
             </div>
             <div className="inputs-container">
-                <Input fieldName="Nome ou apelido" />
                 <Input />
                 <Input fieldName="Senha" hideable={true} />
-                <Input fieldName="Confirmar senha" hideable={true} />
             </div>
-            <button className="register-button">
-                Cadastrar
-            </button>
+            <div className="login-footer">
+                <span style={{marginBottom: "1rem"}}>
+                    Não possui uma conta ainda?
+                    <Link to="/register" className="register-link"> Cadastrar </Link>
+                </span>
+                <button className="register-button">
+                    Entrar
+                </button>
+            </div>
         </div>
     );
 }
 
-export default Register;
+export default Login;

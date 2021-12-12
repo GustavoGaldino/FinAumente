@@ -1,0 +1,24 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--aqua-main);
+}
+
+.register-link{
+    color: var(--aqua-text);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-size: .9rem;
+}

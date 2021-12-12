@@ -2,8 +2,6 @@ import './AddFriend.css'
 
 import { Link } from 'react-router-dom';
 
-import Input from '../Register/Input';
-
 import { RiArrowGoBackFill } from 'react-icons/ri';
 
 const AddFriend = () => {

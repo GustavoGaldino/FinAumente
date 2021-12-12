@@ -1,0 +1,68 @@
+.trade-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--blue-darker);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.progress-bar-outer{
+    width: 80vw;
+    height: 1.25rem;
+    background-color: var(--aqua-very-light);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: start;
+}
+
+.progress-bar-inner {
+    height: 1.25rem;
+    width: 40%;
+    border-radius: 1rem;
+    background-color: var(--yellow-font);
+}
+
+.trade-texts{
+    text-align: left;
+    width: 80vw;
+    color: var(--yellow-font);
+}
+
+.trade-texts h1{
+    font-size: 1.75rem;
+}
+
+.trade-texts span{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.trade-img-div img {
+    width: 80%;
+}
+
+.trade-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trade-texts-title {
+    margin-bottom: 1rem;
+}
+
+.trade-btn {
+    background-color: var(--yellow-font);
+    color: var(--aqua-text);
+    padding: 1.25rem 2rem;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+.trade-btn-div {
+    width: 80vw;
+    display: flex;
+    justify-content: flex-end;
+}

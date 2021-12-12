@@ -9,6 +9,8 @@ import Journey from './Pages/Journey/Journey'
 import Hamburguer from './Pages/Hamburguer/Hamburguer'
 import Friends from './Pages/Friends/Friends'
 import AddFriend from './Pages/AddFriend/AddFriend'
+import Trade from './Pages/Trade/Trade'
+import TradeExample from './Pages/TradeExample/TradeExample'
 
 function App() {
 	return (
@@ -21,6 +23,8 @@ function App() {
 				<Route path="/hamburguer" element={ <Hamburguer /> } />
 				<Route path="/friends" element={ <Friends /> } />
 				<Route path="/add-friend" element={ <AddFriend /> } />
+				<Route path="/trade" element={ <Trade /> } />
+				<Route path="/trade-example" element={ <TradeExample /> } />
 			</Routes>
 		</Router>
 	);

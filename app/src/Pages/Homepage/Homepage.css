@@ -41,14 +41,14 @@
     border-radius: 1rem;
 }
 
-.homepage-buttons :first-child{
+.homepage-button-1{
     background-color: var(--aqua-light);
     z-index: 999;
     position: relative;
     margin-left: 1.25rem;
 }
 
-.homepage-buttons :last-child{
+.homepage-button-2{
     background-color: var(--blue-darker);
     position: relative;
     right: 1.25rem;

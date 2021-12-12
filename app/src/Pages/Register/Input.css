@@ -1,0 +1,28 @@
+input {
+    all: unset;
+    border: 2px solid var(--aqua-text);
+    border-radius: .8rem;
+    padding: 1rem;
+    color: var(--aqua-text);
+    width: 70vw;
+}
+
+input[type="text"] {
+    background: transparent;
+}
+
+input[type="password"] {
+    background: transparent;
+}
+
+::placeholder {
+    color: var(--aqua-text);
+}
+
+.input-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: .75rem;
+}

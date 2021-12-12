@@ -1,0 +1,46 @@
+.register-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--aqua-main);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputs-container :nth-child(1n) {
+    margin: .35rem 0;
+}
+
+.register-texts{
+    width: calc(70vw + 1.5rem);
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.register-texts span{
+    font-family: Montserrat;
+}
+
+.register-texts :first-child {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.register-button {
+    background-color: var(--aqua-light);
+    color: black;
+    font-family: Montserrat;
+    font-weight: bold;
+    padding: 1.25rem;
+    width: calc(70vw - .5rem);
+    border-radius: 1rem;
+    text-align: center;
+}

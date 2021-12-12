@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './Homepage.css'
 
 import manHoldingCard from '../../assets/images/man-holding-card.png'
@@ -23,8 +25,12 @@ const Homepage = () => {
                 </div>
             </div>
             <div className="homepage-buttons">
-                <button>Cadastrar</button>
-                <button>Entrar</button>
+                <Link to="/register">
+                    <button className="homepage-button-1">Cadastrar</button>
+                </Link>
+                <Link to="/login">
+                    <button className="homepage-button-2">Entrar</button>
+                </Link>
             </div>
         </div>
     );

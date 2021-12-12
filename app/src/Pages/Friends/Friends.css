@@ -1,0 +1,65 @@
+.friends-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: var(--blue-darker);
+}
+
+.friends-text-div{
+    width: 88vw;
+    color: var(--yellow-font);
+}
+
+.friends-text-div h1{
+    font-size: 2rem;
+}
+
+.friends-nivel-div {
+    width: 80vw;
+}
+
+.friends-nivel-div span{
+    font-size: 1.5rem;
+    color: var(--aqua-very-light);
+}
+
+.friend-container{
+    width: 90vw;
+    background-color: var(--aqua-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.friend-img-div {
+    width: 30vw;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.friend-name-div {
+    width: 70vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: var(--aqua-text);
+}
+
+.friend-name-div span{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.add-friend-btn {
+    background-color: var(--yellow-font);
+    color: var(--aqua-text);
+    padding: 1.25rem 2rem;
+    font-weight: bold;
+    border-radius: 1rem;
+}

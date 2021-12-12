@@ -26,7 +26,7 @@ const Journey = () => {
             <Nivel imgSrc={tradeSrc} nivel={1} />
             <div className="subject-cards">
                 <Subject imgSrc={tradingSrc} subjectTitle="Trocas" subjectPath="/trade" completed={true} />
-                <Subject imgSrc={moneySrc} subjectTitle="Dinheiro" subjectPath="/money" completed={false} />
+                <Subject imgSrc={moneySrc} subjectTitle="Dinheiro" subjectPath="/journey" completed={false} />
             </div>
             <Nivel imgSrc={bankSrc} nivel={2} />
         </div>

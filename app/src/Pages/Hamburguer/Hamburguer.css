@@ -1,0 +1,30 @@
+.hr {
+    height: 2px;
+    background-color: var(--blue-darker);
+    width: 80vw;
+    margin-top: 1.5rem;
+}
+
+.hamburguer-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--yellow-font);
+}
+
+.hamburguer-container h1{
+    font-size: 2.5rem;
+    color: var(--blue-darker);
+}
+
+.leave-btn{
+    margin-top: 8rem;
+    padding: 1rem 3rem;
+    color: var(--white-text);
+    background-color: var(--blue-darker);
+    border-radius: 1rem;
+    font-weight: bold;
+}

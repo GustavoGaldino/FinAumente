@@ -15,7 +15,7 @@ import Subject from './Subject'
 const Journey = () => {
     return(
         <div className="journey-container">
-            <div className="hamburguer-container">
+            <div className="hamburguer-div">
                 <Link to="/hamburguer">
                     <GiHamburgerMenu
                         color="#FFC745"

@@ -7,6 +7,7 @@ import Journey from './Pages/Journey/Journey'
 
 
 import './assets/styles/global.css'
+import Hamburguer from './Pages/Hamburguer/Hamburguer'
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 				<Route path="/register" element={ <Register /> } />
 				<Route path="/login" element={ <Login /> } />
 				<Route path="/journey" element={ <Journey /> } />
+				<Route path="/hamburguer" element={ <Hamburguer /> } />
 			</Routes>
 		</Router>
 	);

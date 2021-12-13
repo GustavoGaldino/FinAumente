@@ -1,0 +1,41 @@
+.trade-practice-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--blue-darker);
+}
+
+.progress-bar-inner-3 {
+    height: 1.25rem;
+    width: 90%;
+    border-radius: 1rem;
+    background-color: var(--yellow-font);
+}
+
+.practice-title-div {
+    text-align: left;
+    width: 80vw;
+    color: var(--yellow-font);
+    margin-bottom: 1rem;
+}
+
+.practice-title-div h1{
+    font-size: 2rem;
+}
+
+.practice-second-text {
+    width: 80vw;
+    text-align: left;
+    color: var(--yellow-font);
+}
+
+.practice-btn{
+    padding: 1.25rem 5rem;
+    background-color: var(--yellow-font);
+    color: var(--aqua-text);
+    border-radius: 1rem;
+    font-weight: bold;
+}

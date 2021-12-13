@@ -1,0 +1,67 @@
+.progress-bar-inner-4 {
+    height: 1.25rem;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: var(--yellow-font);
+}
+
+.congrats-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--blue-darker);
+}
+
+.congrats-img{
+    width: 60%;/**/
+}
+
+.congrats-title-div{
+    width: 80vw;
+    color: var(--yellow-font);
+    text-align: left;
+}
+
+.congrats-title-div h1{
+    font-size: 2.25rem;
+}
+
+.congratulations-text {
+    font-size: 1.1rem;
+    color: var(--yellow-font);
+}
+
+.congrats-btn{
+    padding: 1.25rem 4rem;
+    background-color: var(--yellow-font);
+    color: var(--aqua-text);
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.chapter-finished{
+    width: 80vw;
+    height: 6rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--aqua-text);
+    color: var(--yellow-font);
+}
+
+.chapter-finished-left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.chapter-finished-right {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}

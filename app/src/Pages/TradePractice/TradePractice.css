@@ -39,3 +39,21 @@
     border-radius: 1rem;
     font-weight: bold;
 }
+
+.MuiSlider-rail{
+    color: var(--aqua-text)
+}
+
+.MuiSlider-track{
+    color: var(--aqua-main);
+}
+
+.answer-div {
+    font-size: 1.5rem;
+    color: var(--yellow-font);
+}
+
+.ans-span {
+    margin-left: .5rem;
+    font-weight: bold;
+}

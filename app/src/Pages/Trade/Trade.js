@@ -14,7 +14,7 @@ const Trade = () => {
                     size="2rem"
                     style={{
                         position: "absolute",
-                        left: "1.5rem",
+                        left: "2.25rem",
                         top : "1.25rem",
                         fontWeight: "bold",
                         cursor: "pointer",

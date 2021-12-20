@@ -13,6 +13,9 @@
     font-weight: bold;
     color: var(--aqua-text);
     font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .homepage-title span {
@@ -22,16 +25,24 @@
     color: var(--yellow-font);
 }
 
-.homepage-texts 
+.homepage-texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    max-width: 80%;
+}
+
+.piggy-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .homepage-texts h1{
     font-size: 1.5rem;
     text-align: center;
-}
-
-.homepage-texts :last-child {
-    text-align: left;
-    margin-top: 2rem;
 }
 
 .homepage-buttons button{

@@ -4,25 +4,26 @@ import './Homepage.css'
 
 import manHoldingCard from '../../assets/images/man-holding-card.png'
 
+import logo from '../../assets/images/logo.png'
+
+import piggy from '../../assets/images/piggy.png'
+
 const Homepage = () => {
     return (
         <div className="homepage-container">
-            <div className="homepage-title">
-                <span>Fin</span>Aumente
-            </div>
-            <div className="homepage-image">
-                <img src={manHoldingCard} alt="man-holding-card" />
+            <div className="homepage-title">                    
+                <img src={logo} alt="FinE-logo" style={{width: "50%"}} />
             </div>
             <div className="homepage-texts">
                 <div>
-                    <h1>Melhore suas finanças</h1>
-                </div>
-                <div>
                     <span>
-                        Aprenda a controlar melhor suas<br /> finanças pessoais
-                        para sair das <br/ > armadilhas e se preparar para realizar <br /> seus sonhos
+                        Aprenda a controlar melhor suas finanças pessoais
+                        para sair das armadilhas e se preparar para realizar seus sonhos
                     </span>
                 </div>
+            </div>
+            <div className="piggy-img-container" >
+                <img src={piggy} alt="pig-logo" style={{width: "40%"}} />
             </div>
             <div className="homepage-buttons">
                 <Link to="/register">

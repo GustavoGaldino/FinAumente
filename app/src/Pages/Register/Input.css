@@ -5,6 +5,7 @@ input {
     padding: 1rem;
     color: var(--aqua-text);
     width: 70vw;
+    max-width: 500px;
 }
 
 input[type="text"] {

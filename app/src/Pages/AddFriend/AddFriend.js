@@ -23,11 +23,11 @@ const AddFriend = () => {
             <div className="add-friend-input">
                 <input placeholder="E-mail do amigo"/>
             </div>
-            <div className="add-friend-btn">
-                <Link to="/friends">
+            <Link to="/friends">
+                <div className="add-friend-btn">
                     <button>Adicionar Amigo</button>
-                </Link>
-            </div>
+                </div>
+            </Link>
         </div>
     );
 }

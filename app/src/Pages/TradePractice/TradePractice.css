@@ -30,6 +30,7 @@
     width: 80vw;
     text-align: left;
     color: var(--yellow-font);
+    font-size: .9rem;
 }
 
 .practice-btn{

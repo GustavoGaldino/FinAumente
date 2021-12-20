@@ -30,17 +30,20 @@ const TradeExample = () => {
                     <h1>Exemplo</h1>
                 </div>
                 <span>
-                    Lorem ipsum dolor sit amet,
-                    <br /> consectetur adispicing elit.
-                    <br /> Morbi leo lorem, portittor in
+                    Uma pessoa tem um chapéu <br />
+                    cinza e outra tem um <br />
+                    chapéu amarelo.
                 </span>
             </div>
-            <img src={tradeExampleSrc} />
+            <div className="trade-example-img">
+                <img src={tradeExampleSrc} />
+            </div>
             <div className="trade-example-second-text">
                 <span>
-                    Lorem ipsum dolor sit amet,
-                    <br /> consectetur adispicing elit.
-                    <br /> Morbi leo lorem, portittor in
+                    Como os 2 chapéus são idênticos, <br />
+                    mudando sua cor, é provável que os 2 chapeús
+                    valem a mesma coisa e <br />
+                    podem ser trocados.
                 </span>
             </div>
             <div className="trade-btn-div">

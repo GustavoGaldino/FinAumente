@@ -33,7 +33,12 @@ const Trade = () => {
                     <h1>O que é uma troca?</h1>
                 </div>
                 <span>
-                    O comércio baseia-se na troca voluntária de produtos. As trocas podem ter lugar entre dois parceiros (comércio bilateral) ou entre mais do que dois parceiros (comércio multilateral).
+                    Troca é um acordo em que duas pessoas <br />
+                    concordam em trocar um produto por <br />
+                    outro, de forma espontânea. <br />
+                    As duas partes precisam acreditar <br />
+                    no valor dos objetos para que tudo <br />
+                    seja considerado justo.
                 </span>
             </div>
             <div className="trade-btn-div">

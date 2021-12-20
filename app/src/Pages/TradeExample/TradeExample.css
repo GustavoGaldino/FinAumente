@@ -17,6 +17,13 @@
     justify-content: start;
 }
 
+.trade-example-img{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .progress-bar-inner-2 {
     height: 1.25rem;
     width: 60%;

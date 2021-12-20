@@ -45,9 +45,10 @@ const TradePractice = () => {
                 </div>
                 <div className="practice-second-text">
                     <span>
-                        Lorem ipsum dolor sit amet, <br />
-                        consectur adispicing elit. Morbi leo <br />
-                        lorem, portittor in volutpat in.
+                        Uma pessoa tem uma caixa grande e dentro dela existem 5 caixas pequenas.
+                        Sabendo que só a caixa grande (sem o conteúdo) vale o mesmo que 10 caixas pequenas,
+                        quantas caixas pequenas outra pessoa precisa oferecer para trocar pela outra caixa grande
+                        com as outras caixas dentro?
                     </span>
                 </div>
             </div>

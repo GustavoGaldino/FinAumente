@@ -17,8 +17,8 @@ const Homepage = () => {
             <div className="homepage-texts">
                 <div>
                     <span>
-                        Aprenda a controlar melhor suas finanças pessoais
-                        para sair das armadilhas e se preparar para realizar seus sonhos
+                        Aprenda a controlar melhor suas <br /> finanças pessoais
+                        para sair das <br /> armadilhas e se preparar para <br /> realizar seus sonhos
                     </span>
                 </div>
             </div>

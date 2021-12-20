@@ -10,6 +10,7 @@
 
 .progress-bar-outer{
     width: 80vw;
+    max-width: 500px;
     height: 1.25rem;
     background-color: var(--aqua-very-light);
     border-radius: 1rem;

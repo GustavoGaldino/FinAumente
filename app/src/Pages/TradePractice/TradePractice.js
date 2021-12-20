@@ -81,7 +81,7 @@ const TradePractice = () => {
                 </span>
             </div>
 
-            <Link to="/congratulations">
+            <Link to={answer != 15 ? "/trade-practice" : "/congratulations"}>
                 <button className="practice-btn">
                     Checar
                 </button>

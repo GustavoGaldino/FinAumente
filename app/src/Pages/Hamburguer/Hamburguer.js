@@ -27,11 +27,11 @@ const Hamburguer = () => {
                 </Link>
                 <div className="hr" />
             </div>
-            <div className="leave-btn">
-                <Link to="/">
+            <Link to="/">
+                <div className="leave-btn">
                     <button>Sair</button>
-                </Link>
-            </div>
+                </div>
+            </Link>
         </div>
     );
 }

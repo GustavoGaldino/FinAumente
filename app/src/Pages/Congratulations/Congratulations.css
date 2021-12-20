@@ -49,6 +49,7 @@
 
 .chapter-finished{
     width: 80vw;
+    max-width: 500px;
     height: 6rem;
     border-radius: 1rem;
     display: flex;

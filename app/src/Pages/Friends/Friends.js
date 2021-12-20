@@ -30,11 +30,11 @@ const Friends = () => {
             </div>
             <Friend name="José Tavares"/>
             <Friend name="André Caldas"/>
-            <div className="add-friend-btn">
-                <Link to="/add-friend">
+            <Link to="/add-friend">
+                <div className="add-friend-btn">                       
                     <button>Adicionar amigo</button>
-                </Link>
-            </div>
+                </div>
+            </Link>
         </div>
     );
 }

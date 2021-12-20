@@ -30,17 +30,17 @@ const Login = () => {
             <div className="inputs-container">
                 <Input />
                 <Input fieldName="Senha" hideable={true} />
-            </div>
-            <div className="login-footer">
-                <span style={{marginBottom: "1rem"}}>
-                    Não possui uma conta ainda?
-                    <Link to="/register" className="register-link"> Cadastrar </Link>
-                </span>
                 <Link to="/journey">
                     <button className="register-button">
                         Entrar
                     </button>
                 </Link>
+            </div>
+            <div className="login-footer">
+                <span style={{marginBottom: "6rem"}}>
+                    Não possui uma conta ainda?
+                    <Link to="/register" className="register-link"> Cadastre-se agora! </Link>
+                </span>
             </div>
         </div>
     );

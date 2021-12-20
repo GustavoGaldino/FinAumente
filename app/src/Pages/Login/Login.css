@@ -5,7 +5,8 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: var(--aqua-main);
+    background-image: url("../../assets/images//app-bg.jpg");
+    background-size: auto 100%;
 }
 
 .register-link{

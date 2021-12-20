@@ -5,7 +5,127 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: var(--aqua-main);
+}
+
+.journey-navbar{
+    width: 100vw;
+    height: 3rem;
     background-color: var(--blue-darker);
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.journey-texts{
+    width: calc(80vw - 1rem);
+    text-align: left;
+    margin-top: 2.25rem;
+}
+
+.journey-texts span{
+    font-size: 2rem;
+    font-family: Montserrat;
+    color: #0F1116;
+    font-weight: 200;
+    text-align: left;
+}
+
+.nivel1-card {
+    height: 248px;
+    background-color: var(--blue-darker);
+    width: 80vw;
+    max-width: 400px;
+    border-radius: 2rem;
+}
+
+.nivel1-card-top {
+    background-color: var(--yellow-font);
+    height: 3.5rem;
+    width: 100%;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--aqua-text);
+}
+
+.card1-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 3.5rem);
+}
+
+.subject-card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.subject-card1 {
+    color: var(--white-text);
+    font-size: 1.25rem;
+    font-family: Montserrat;
+}
+
+.subject-card1-img{
+    background-color: var(--white-text);
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.subject-card1-img img{
+    width: 4rem;
+}
+
+.subject-card1-stars {
+    margin-top: .25rem;
+}
+
+.subject-card1-title{
+    margin-bottom: .25rem;
+}
+
+.nivel2-card {
+    height: 248px;
+    width: 80vw;
+    max-width: 400px;
+    background-color: #667069;
+    border-radius: 2rem;
+}
+
+.nivel2-card-top {
+    background-color: #b7c9bd;
+    height: 3.5rem;
+    width: 100%;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-contrast);
+}
+
+.card2-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 3.5rem);
+}
+
+.journey-texts h1{
+    font-family: Montserrat;
+    color: var(--aqua-text);
+    text-align: left;
 }
 
 .hamburguer-div{

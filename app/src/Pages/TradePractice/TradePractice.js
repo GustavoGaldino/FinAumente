@@ -80,11 +80,11 @@ const TradePractice = () => {
                 </span>
             </div>
 
-            <button className="practice-btn">
-                <Link to="/congratulations">
+            <Link to="/congratulations">
+                <button className="practice-btn">
                     Checar
-                </Link>
-            </button>
+                </button>
+            </Link>
 
         </div>
     );

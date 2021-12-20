@@ -50,11 +50,11 @@ const Congratulations = () => {
                     <span>Nível 1</span>
                 </div>
             </div>
-            <button className="congrats-btn">
-                <Link to="/journey">
+            <Link to="/journey">
+                <button className="congrats-btn">
                     Voltar para jornada
-                </Link>
-            </button>
+                </button>
+            </Link>
         </div>
     );
 }
